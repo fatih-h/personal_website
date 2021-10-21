@@ -1,0 +1,200 @@
+html {
+  font-size: 62.5%;
+  /* rem i istedigin gibi kullan 2.1rem gibi */
+  box-sizing: border-box;
+  /*amac burada  border-    box i all in tanimlamak*/
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  /* background-color: #eeeeee; */
+  background-color: #010101;
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header */
+.top-container {
+  display: flex;
+  /* background-color: #1e212d; */
+  /* background-color:#1e3d58; */
+  /* background:#2f5233; */
+  background-color: #0b1c48;
+  height: 18rem;
+  height: 22vh;
+  width: auto;
+  align-items: center;
+  text-align: center;
+  color: #dddddd;
+  font-family: "Montserrat", sans-serif;
+}
+.header {
+  flex: 3;
+}
+.header div {
+  font-size: 7.2rem;
+  font-weight: 600;
+  color: #e66912;
+  text-shadow: 0.5rem 0.5rem #000000;
+}
+.navbar {
+  flex: 7;
+  display: flex;
+  gap: 1rem;
+}
+.member {
+  flex: 1;
+  font-size: 2.2rem;
+  font-weight: 400;
+  border: 0.3rem solid #016367;
+  border-radius: 1rem;
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+.member:hover {
+  background-color: #9e3a14;
+  font-size: 2.3rem;
+}
+.member a {
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+/* Main */
+.middle-container {
+  display: flex;
+  /* background-color: #fdf6f0; */
+  /* background-color:#43b0f1; */
+  background-color: #fd5750;
+  height: 78vh;
+  width: auto;
+  color: #010101;
+  font-family: "Montserrat", sans-serif;
+  align-items: center;
+  margin: 1.5rem 2rem 1.5rem 2rem;
+}
+.content {
+  flex: 3;
+  align-self: stretch;
+  padding-left: 5rem;
+}
+.content h1 {
+  font-size: 6rem;
+  line-height: 1.5;
+}
+.content p {
+  font-size: 5rem;
+  color: #dddddd;
+  text-shadow: 0.2rem 0.2rem #000000;
+}
+.free-site {
+  flex: 2;
+}
+.free-site img {
+  border-radius: 2%;
+  width: 100%;
+  height: auto;
+  transform: translate(-30px, 10px) rotate(6deg);
+  border: 1rem solid #000000;
+}
+
+.description {
+  margin: 1.5rem 2rem 1rem 2rem;
+  background-color: #d0e3ff;
+  height: 44vh;
+  width: auto;
+  font-family: "Source Code Pro", monospace;
+
+  padding: 2rem 5rem 0 5rem;
+}
+.praise {
+  display: flex;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+}
+.praise h3 {
+  flex: 3;
+  text-shadow: 0.1rem 0.1rem #ffffff;
+}
+.self-imp {
+  flex: 1;
+  align-self: center;
+}
+.praise img {
+  display: inline;
+}
+
+.cards {
+  margin: 1rem 1rem 1.5rem 2rem;
+  height: 83vh;
+  width: auto;
+  background-color: #1877f2;
+  font-family: "Montserrat", sans-serif;
+  padding: 0.4rem 0;
+}
+.cards h1 {
+  text-align: center;
+  color: #dddddd;
+  text-shadow: 0.1rem 0.1rem black;
+  font-size: 4.4rem;
+}
+.skillset {
+  display: flex;
+  text-align: center;
+  gap: 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  font-weight: 750;
+}
+.skills {
+  flex: 1;
+  border: 0.5rem solid #dddddd;
+  border-radius: 8%;
+  background-color: #a161e8;
+}
+
+.skills img {
+  width: 30%;
+  height: auto;
+  padding-top: 2rem;
+}
+
+.know-how {
+  text-align: left;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.star1 {
+  color: lightyellow;
+  text-shadow: 0.1rem 0.1rem black;
+}
+
+.footer {
+  line-height: 1.5;
+  font-weight: 100;
+  text-align: center;
+  padding: 2% 14%;
+  background-color: #ffffff;
+  color: black;
+  height: 30wh;
+  margin-bottom: 10px;
+}
+.footer h3 {
+  font-family: "Montserrat", sans-serif;
+}
+.f-button {
+  margin: 5% 1.5%;
+  width: 10rem;
+  color: black;
+}

@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header
+{
+margin-left: 37%;
+color: azure;
+}
+
+body{
+    background-color: cadetblue;
+    font-family: sans-serif;
+    
+}
+.navbar{
+    background-color: #5b71b5;
+    text-align: center;
+
+}
+.navbar ul{
+    display: inline-flex;
+    list-style: none;
+   
+}
+.navbar ul li{
+    width: 150px;
+     margin: 15px;
+     padding-bottom:15px;
+     margin-right: 250px;
+    
+}
+.navbar ul li a{
+    
+    text-decoration: none;
+    color: white;
+}
+.ana-sayfa,.navbar ul li:hover{
+    background:#d4c995;
+    padding-top:5px ;
+    border-radius: 10px;
+}
+.bilgisayarcı{display: none;}
+.navbar ul li:hover .bilgisayarcı{
+    display: block;
+    position: absolute;
+    background: #5b71b5;
+    margin-top: 15px;
+    margin-left: -15px;
+    font-size: 10px;
+}
+.navbar ul li:hover .bilgisayarcı ul{
+    display: block;
+}
+.elektrikci{display: none;}
+.navbar ul li:hover .elektrikci{
+    display: block;
+    position: absolute;
+    background: #5b71b5;
+    margin-top: 15px;
+    margin-left: -15px;
+    font-size: 10px;
+}
+.navbar ul li:hover .elektrikci ul{
+    display: block;
+}
+  
+main {
+    max-width: 1500px;
+    box-sizing: border-box;
+    padding: 30px 3% 30px 3%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content:space-evenly;
+    gap: 150px;
+  }
+  main div {
+    background-color: #5b71b5;
+    border-radius: 6px;
+    padding: 15px;
+    max-width: 45%;
+    min-width: 250px;
+    box-shadow: 5px 8px;
+  }
+  main div ul {
+    padding: 3px 5px 3px 15px;
+    text-align: left;
+  }
+  main div.kutu1,
+  main div.kutu3 {
+    min-width: 300px;
+  }
+  main div.kutu1 p {
+    text-align: justify;
+  }
+  footer {
+    display: inline-block;
+    width: 100%;
+    background-color: #d4c995 ;
+    text-align: center;
+    padding: 15px 0 15px 0;
+  }
+  footer h3 {
+    padding: 0;
+    margin: 0;
+  }
+  footer p {
+    margin: 10px 0 0 0;
+    display: inline-block;
+    padding: 0 5px 0 5px;
+  }
+  footer a:link {
+    color: #858b97;
+  }
+  

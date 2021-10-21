@@ -1,0 +1,102 @@
+ul {
+  list-style-type: none;
+
+  margin: 0;
+
+  padding: 0;
+
+  overflow: hidden;
+
+  background-color: grey;
+}
+
+li {
+  float: left;
+  height: 80px;
+}
+
+li a {
+  display: block;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 14px 16px;
+
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: white;
+  font-size: x large;
+}
+
+.active {
+  background-color: grey;
+}
+
+.kapsayici {
+  display: flex;
+  background-color: white;
+  height: 300px;
+  font-size: x-large;
+
+  height: 270px;
+
+  border: 5px solid #000;
+}
+
+.eleman {
+  background-color: grey;
+  text-align: center;
+  width: 400px;
+  height: 260px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: antiquewhite;
+  font-size: large;
+  border: 5px solid #000;
+}
+
+h1 {
+  color: white;
+  height: 100px;
+}
+
+body {
+  font-family: Verdana, monospace, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: justify;
+  background-color: rgb(32, 108, 248);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  height: 100%;
+  text-overflow: center;
+  width: 300px;
+  height: 200px;
+  background: #eee8aa;
+  background-color: grey;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+.kutu {
+  width: 220px;
+  height: 200px;
+  border: 5px solid #000;
+  background-color: grey;
+  align-items: center;
+  color: white;
+  width: 300px;
+  height: 100px;
+  text-align: center;
+}
